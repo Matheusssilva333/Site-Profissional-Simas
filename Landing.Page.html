@@ -4,146 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simas Software Inteligente</title>
-    <style>
-        body {
-            background-color: #ff0000 !important; /* Vermelho para fácil identificação */
-        }
-    </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="main-header">
         <div class="container">
             <nav class="main-nav">
-                <a href="Landing.Page.html" class="brand">Simas</a>
+                <a href="#" class="brand">Simas</a>
                 <div class="nav-toggle" id="nav-toggle">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
                 <ul class="nav-menu" id="nav-menu">
-                    <li><a href="Landing.Page.html#hero-section">Início</a></li>
-                    <li><a href="Landing.Page.html#features-benefits-section">Funcionalidades</a></li>
-                    <li class="nav-link-item"><a href="Landing.Page.html#advantages-section">Vantagens</a></li>
-                    <li class="nav-link-item"><a href="Landing.Page.html#testimonials-section">Depoimentos</a></li>
-                    <li class="nav-link-item"><a href="About.html">Sobre</a></li>
-                    <li class="nav-link-item"><a href="Contato.html">Contato</a></li>
+                    <li><a href="landing-page.html">Início</a></li>    
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="Contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section id="hero-section" class="hero-section" data-animate-on-scroll="fade-in">
+        <section id="hero-section" class="hero-section">
             <div class="container">
                 <div class="hero-content">
                     <h1 class="hero-title">Simas: Inteligência para suas Avaliações e Perícias Médicas</h1>
                     <h3 class="hero-subtitle">Otimize seu tempo e garanta laudos precisos com o poder da IA.</h3>
                     <div class="hero-ctas">
-                        <a href="Landing.Page.html#features-benefits-section" class="btn btn-primary">EXPERIMENTE GRÁTIS</a>
-                        <a href="Landing.Page.html#advantages-section" class="btn btn-secondary">CONHEÇA NOSSOS PLANOS</a>
-                    </div>
-                    <p class="social-highlight">+X Médicos e Peritos Satisfeitos</p>
-                    <!-- Logos de parceiros podem ser adicionados aqui, se houver -->
-                </div>
-            </div>
-        </section>
-        <section id="highlight-section" class="section-spacing" data-animate-on-scroll="slide-up">
-            <div class="container">
-                <div class="highlight-card">
-                    <p class="highlight-tag">NOVIDADE</p>
-                    <h3 class="hero-subtitle highlight-title">Simas é reconhecido como a plataforma líder em gestão de perícias médicas.</h3>
-                    <p class="highlight-description">Acompanhe as últimas inovações e como o Simas está transformando a prática médico-pericial.</p>
-                    <a href="Landing.Page.html#what-simas-does-section" class="btn btn-secondary">SAIBA MAIS</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="features-benefits-section" class="section-spacing" data-animate-on-scroll="slide-up">
-            <div class="container">
-                <h2 class="section-heading">O que o Simas oferece</h2>
-                <div class="features-grid">
-                    <div class="feature-item">
-                        <img src="icon-analysis.png" alt="Ícone de Análise" width="48" height="48">
-                        <h3 class="section-heading">Análise de Laudos e Documentos</h3>
-                        <p class="feature-description">Envie documentos médicos e obtenha resumos, insights, análises de inconsistências e sugestões.</p>
-                        <a href="Features.html#analysis-section" class="btn btn-primary">SAIBA MAIS</a>
-                    </div>
-                    <div class="feature-item">
-                        <img src="icon-report.png" alt="Ícone de Relatório" width="48" height="48">
-                        <h3 class="section-heading">Elaboração de Pareceres e Relatórios</h3>
-                        <p class="feature-description">Auxílio na criação de pareceres, laudos periciais e relatórios detalhados, com base em modelos e dados.</p>
-                        <a href="Features.html#analysis-section" class="btn btn-primary">SAIBA MAIS</a>
-                    </div>
-                    <div class="feature-item">
-                        <img src="icon-search.png" alt="Ícone de Busca" width="48" height="48">
-                        <h3 class="section-heading">Busca por Referências e Normativas</h3>
-                        <p class="feature-description">Acesse rapidamente jurisprudências médicas, normativas do CFM/CRM e artigos científicos relevantes.</p>
-                        <a href="Features.html#analysis-section" class="btn btn-primary">SAIBA MAIS</a>
+                        <a href="#contact-section" class="btn btn-primary">FALE CONOSCO</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="what-simas-does-section" class="section-spacing" data-animate-on-scroll="slide-up">
+        <section id="about-section" class="section-spacing">
             <div class="container">
-                <h2 style="color: black;" class="section-heading">IA Médica: O que o Simas pode fazer por você</h2>
-                <div class="features-list-grid">
-                    <ul>
-                        <li style="color: black;">Análise de Prontuários</li>
-                        <li style="color: black;">Geração de Laudos</li>
-                        <li style="color: black;">Pesquisa de CID-10/TUSS</li>
-                        <li style="color: black;">Pareceres Médicos</li>
-                        <li style="color: black;">Análise de Casos Complexos</li>
-                        <li style="color: black;">Comandos por Voz</li>
-                    </ul>
-                    <ul>
-                        <li style="color: black;">Transcrição de Consultas/Áudios</li>
-                        <li style="color: black;">Fundamentação Técnica</li>
-                        <li style="color: black;">Respostas Instantâneas</li>
-                        <li style="color: black;">Interação com Documentos</li>
-                        <li style="color: black;">Revisão de Textos Médicos</li>
-                        <li style="color: black;">Busca por Referências Médicas</li>
-                        <li style="color: black;">Otimização de Fluxos de Trabalho</li>
-                    </ul>
-                </div>
-            </div>
-        </section>  
-
-        <section id="advantages-section" class="section-spacing" data-animate-on-scroll="slide-up">
-            <div class="container">
-                <h2 class="section-heading" style="color: black;">Benefícios: Vantagens de usar o Simas</h2>
-                <div class="advantages-grid">
-                    <div class="advantage-item">
-                        <p style="color: black;"><i class="fas fa-check"></i> Poupe até X horas semanais em sua rotina pericial/clínica</p>
-                    </div>
-                    <div class="advantage-item">
-                        <p><i class="fas fa-check"></i> IA treinada especificamente no Campo Médico-Pericial Brasileiro</p>
-                    </div>
-                    <div class="advantage-item">
-                        <p style="color: black;"><i class="fas fa-check"></i> Maior profundidade técnica e jurídica nas respostas</p>
-                    </div>
-                    <div class="advantage-item">
-                        <p style="color: black;"><i class="fas fa-check"></i> Personalidade focada em compreender os desafios da medicina e perícia</p>
-                    </div>
-                    <div class="advantage-item">
-                        <p style="color: black;"><i class="fas fa-check"></i> Exclusivo para médicos e peritos</p>
-                    </div>
-                    <div class="advantage-item">
-                        <p style="color: black;"><i class="fas fa-check"></i> Maior liberdade em assuntos complexos e restritos</p>
-                    </div>
-                </div>
+                <h2 class="section-heading">Sobre o Simas</h2>
+                <p>O Simas é um software inteligente desenvolvido para revolucionar a forma como médicos e peritos realizam avaliações e perícias médicas. Utilizando inteligência artificial avançada, o Simas otimiza processos, garante a precisão dos laudos e libera tempo para que os profissionais possam focar no que realmente importa: o paciente.</p>
+                <p>Nossa plataforma oferece ferramentas para análise de prontuários, elaboração de pareceres, busca por referências e normativas, e muito mais, tudo com um visual moderno e elegante para uma experiência de usuário intuitiva e eficiente.</p>
             </div>
         </section>
 
-        <section id="testimonials-section" class="section-spacing" data-animate-on-scroll="slide-up">
+        <section id="contact-section" class="section-spacing">
             <div class="container">
-                <h2 class="section-heading" style="color: black;">O que dizem nossos usuários</h2>
-                <p class="section-description" style="color: black;">Veja como o Simas tem transformado a rotina de médicos e peritos em todo o Brasil.</p>
-                <div class="testimonials-grid">
-                    <div class="testimonial-item">
-                        <p class="testimonial-text" style="color: black;">"O Simas revolucionou a forma como preparo meus laudos. Mais rápido, mais preciso e com uma base de dados incrível!"</p>
+                <h2 class="section-heading">Entre em Contato</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
                     </div>
-                </body>
-                </html>
-                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer-section" class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 Simas Software Inteligente. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
